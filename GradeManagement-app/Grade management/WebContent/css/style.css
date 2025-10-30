@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*すべてのファイルに共通*/
+
+*{box-sizing:border-box;}
+
+
+body{font-family: sans-serif;
+		background-color:#4682B4;
+		margin:0;
+		color:white;
+		padding: 0;
+	}
+
+/*すべてのページを中央に寄せる*/
+
+.container{max-width:600px;
+			margin:0 auto;
+			padding: 20px;
+			width:90%;
+			}
+
+
+/*フォームの位置*/
+form{display:flex;
+	flex-direction: column;
+	 align-items: center;
+}
+
+/*ボタンのスタイル*/
+.button{color:white;
+		background-color:black;
+		padding:5px;
+		border:none;
+		border-radius:3px;
+		/*カーソルを持ってくると指の形に代わる*/
+		cursor:pointer;
+}
+
+
+
+
+/*テキスト入力欄基本のスタイル*/
+
+label {
+  margin-bottom: 10px;}
+
+input[type="text"],
+input[type="password"]{
+
+	padding:5px;
+	margin-bottom:5px;
+	display:block;
+	border:1px solid black;
+	width:170px;
+
+
+}
+/*注意書のスタイル*/
+
+.caution{color:red;
+		font-size:16px;
+		text-align:center;
+}
+
+
+li{list-style-type: none;}
+
+}
